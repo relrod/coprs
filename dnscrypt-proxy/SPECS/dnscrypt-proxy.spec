@@ -1,5 +1,5 @@
 Name:           dnscrypt-proxy
-Version:        1.4.0
+Version:        1.4.1
 Release:        1%{?dist}
 Summary:        A tool for securing communications between a client and a DNS resolver
 License:        ISC
@@ -53,5 +53,8 @@ make install DESTDIR=%{buildroot}
 %{_libdir}/%{name}
 
 %changelog
+* Sat Oct 25 2014 Ricky Elrod <relrod@redhat.com> - 1.4.1-1
+- Bump to upstream 1.4.1
+
 * Sat Jul 26 2014 Ricky Elrod <relrod@redhat.com> - 1.4.0-1
 - Initial packaging.
